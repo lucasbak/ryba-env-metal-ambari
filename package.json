@@ -1,0 +1,27 @@
+{
+  "name": "ryba-env-metal-ambari",
+  "version": "1.0.0",
+  "description": "configuration for testing ryba to ambari install",
+  "main": "index.js",
+  "dependencies": {
+    "masson": "^0.1.6",
+    "ryba": "^0.0.7",
+    "nikita": "^0.6.5",
+    "ryba-ambari-takeover": "^0.0.1",
+    "ryba-ambari-actions": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbak/ryba-env-metal-ambari.git"
+  },
+  "author": "lucas Bakalian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbak/ryba-env-metal-ambari/issues"
+  },
+  "homepage": "https://github.com/lucasbak/ryba-env-metal-ambari#readme"
+}
