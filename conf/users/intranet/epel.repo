@@ -1,0 +1,34 @@
+[centos6-epel-opt]
+name=centos6-epel-opt
+#baseurl=http://10.122.26.31/cobbler/localmirror/epel/rhel/6Server/$basearch/
+baseurl=http://10.10.10.101:10181/pub/epel/6/$basearch
+enabled=1
+priority=99
+gpgcheck=0
+
+# [epel]
+# name=Extra Packages for Enterprise Linux 6 - $basearch
+# baseurl=http://cli57pf.der.edf.fr:8080/pub/epel/6/$basearch
+# #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch
+# failovermethod=priority
+# enabled=1
+# gpgcheck=0
+# gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+# 
+# [epel-debuginfo]
+# name=Extra Packages for Enterprise Linux 6 - $basearch - Debug
+# baseurl=http://cli57pf.der.edf.fr:8080/pub/epel/6/$basearch/debug
+# #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-6&arch=$basearch
+# failovermethod=priority
+# enabled=0
+# gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+# gpgcheck=0
+# 
+# [epel-source]
+# name=Extra Packages for Enterprise Linux 6 - $basearch - Source
+# baseurl=http://cli57pf.der.edf.fr:8080/pub/epel/6/SRPMS
+# m#irrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-source-6&arch=$basearch
+# failovermethod=priority
+# enabled=0
+# gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+# gpgcheck=0

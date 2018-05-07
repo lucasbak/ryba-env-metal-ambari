@@ -1,0 +1,7 @@
+[ceph]
+name=Ceph packages for $basearch
+baseurl=http://10.10.10.1:10080/centos7/cephfs/rpm-jewel/el7/x86_64
+enabled=1
+priority=2
+gpgcheck=0
+gpgkey=https://download.ceph.com/keys/release.asc

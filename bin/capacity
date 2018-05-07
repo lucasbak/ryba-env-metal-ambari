@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Example
+# ./bin/install -d -c data/config.coffee install -h hadoop1.cluster -m wand/hdp/hdfs_nn -f
+
+cd $(dirname "${BASH_SOURCE}")/..
+
+if [ ! -f conf/user.coffee ]; then
+  echo > conf/user.coffee
+fi
+
+./node_modules/ryba/bin/capacity_ambari \
+  -c ./conf/config.coffee \
+  -c ./conf/uid_gid.coffee \
+  -c ./conf/capacity.coffee \
+  -c ./conf/user.coffee \
+  $@
